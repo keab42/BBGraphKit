@@ -20,6 +20,8 @@
 
 //Whether or not the line is curved
 - (BOOL)lineGraph:(BBLineGraph *)lineGraph shouldCurveSeries:(NSUInteger)series;
+
+- (BOOL)lineGraph:(BBLineGraph *)lineGraph shouldPlotNegativeValuesForSeries:(NSUInteger)series;
 @end
 
 @interface BBLineGraph : BBGraph
